@@ -1,319 +1,803 @@
 {
-  "name": "Wrapped Tokens",
-  "logoURI": "https://cloudflare-ipfs.com/ipfs/QmUJQF5rDNQn37ToqCynz6iecGqAmeKHDQCigJWpUwuVLN",
-  "keywords": ["wrapped", "bitcoin", "ether"],
-  "timestamp": "2021-07-06T18:18:00+00:00",
+  "name": "Defiprime",
+  "logoURI": "https://defiprime.com/images/defiprime-logo-hires2.png",
+  "keywords": ["Defi", "defiprime", "curated"],
+  "tags": {
+    "defi": {
+      "name": "DeFi Tokens",
+      "description": "Tokens associated with the products listed at defiprime.com"
+    }
+  },
+  "timestamp": "2022-01-26T00:00:00+00:00",
   "tokens": [
     {
       "chainId": 1,
-      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "symbol": "WBTC",
-      "name": "Wrapped BTC",
-      "decimals": 8,
-      "tags": ["wrapped", "bitcoin"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xC11b1268C1A384e55C48c2391d8d480264A3A7F4",
-      "symbol": "cWBTC",
-      "name": "Compound Wrapped BTC",
-      "decimals": 8,
-      "logoURI": "https://etherscan.io/token/images/compoundwrappedbtc_32.png",
-      "tags": ["wrapped", "compound", "bitcoin"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-      "symbol": "WETH",
-      "name": "Wrapped Ether",
+      "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
+      "symbol": "ANT",
+      "name": "Aragon ANT (old)",
       "decimals": 18,
-      "tags": ["ether"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x4A64515E5E1d1073e83f30cB97BEd20400b66E10",
-      "symbol": "WZEC",
-      "name": "Wrapped ZEC",
+      "address": "0xa1d65E8fB6e87b60FECCBc582F7f97804B725521",
+      "symbol": "DXD",
+      "name": "DXdao",
       "decimals": 18,
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmYNLKHDEoG9FLJtbJ1r8HCyi7by9gksuacRkhkakxwEQ8",
-      "tags": ["zec", "zcash"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x6e1A19F235bE7ED8E3369eF73b196C07257494DE",
-      "symbol": "WFIL",
-      "name": "Wrapped FIL",
+      "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+      "symbol": "SNX",
+      "name": "Synthetix",
       "decimals": 18,
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmU6oL2CMox9sBz2KpsqPHxrKBoATMwe4yRzvqMVh8qjuc",
-      "tags": ["fil", "filecoin"]
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "symbol": "YFI",
+      "name": "Yearn.finance",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x27054b13b1B798B345b591a4d22e6562d47eA75a",
+      "symbol": "AST",
+      "name": "AirSwap",
+      "decimals": 4,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xba100000625a3754423978a60c9317c58a424e3D",
+      "symbol": "BAL",
+      "name": "Balancer",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
+      "symbol": "BNT",
+      "name": "Bancor",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+      "symbol": "CRV",
+      "name": "Curve",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xcc80c051057b774cd75067dc48f8987c4eb97a5e",
+      "symbol": "NEC",
+      "name": "DeversiFi",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xB705268213D593B8FD88d3FDEFF93AFF5CbDcfAE",
+      "symbol": "IDEX",
+      "name": "IDEX",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+      "symbol": "KNC",
+      "name": "KyberSwap",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+      "symbol": "LRC",
+      "name": "Loopring Exchange",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+      "symbol": "ZRX",
+      "name": "Matcha",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
+      "symbol": "BZRX",
+      "name": "bZx",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xec67005c4e498ec7f55e092bd1d35cbc47c91892",
+      "symbol": "MLN",
+      "name": "Melon Protocol",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x408e41876cccdc0f92210600ef50372656052a38",
+      "symbol": "REN",
+      "name": "Ren",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+      "symbol": "UMA",
+      "name": "Uma",
+      "decimals": 18,
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
       "address": "0x0d438f3b5175bebc262bf23753c1e53d03432bde",
       "symbol": "wNXM",
-      "name": "Wrapped NXM",
+      "name": "Nexus Mutual",
       "decimals": 18,
-      "tags": ["nxm", "nexus"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-      "symbol": "USDT",
-      "name": "Tether USD",
-      "decimals": 6,
-      "tags": ["usdt", "tether"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
-      "symbol": "renBTC",
-      "name": "renBTC",
-      "decimals": 8,
-      "tags": ["wrapped", "bitcoin"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x1c5db575e2ff833e46a2e9864c22f4b22e0b37c2",
-      "symbol": "renZEC",
-      "name": "renZEC",
-      "decimals": 8,
-      "tags": ["wrapped", "zcash"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x459086f2376525bdceba5bdda135e4e9d3fef5bf",
-      "symbol": "renBCH",
-      "name": "renBCH",
-      "decimals": 8,
-      "tags": ["wrapped", "bitcoin", "cash"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x3832d2F059E55934220881F831bE501D180671A7",
-      "symbol": "renDOGE",
-      "name": "renDOGE",
-      "logoURI": "https://etherscan.io/token/images/rendoge_32.png",
-      "decimals": 8,
-      "tags": ["wrapped", "doge", "dogecoin"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
-      "symbol": "TBTC",
-      "name": "tBTC",
+      "address": "0x107c4504cd79c5d2696ea0030a8dd4e92601b82e",
+      "symbol": "BLT",
+      "name": "Bloom",
       "decimals": 18,
-      "tags": ["trustless", "bitcoin"]
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x41e5560054824eA6B0732E656E3Ad64E20e94E45",
+      "symbol": "CVC",
+      "name": "Civic",
+      "decimals": 8,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xebbdf302c940c6bfd49c6b165f457fdb324649bc",
+      "symbol": "HYDRO",
+      "name": "Hydro",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7",
+      "symbol": "KEY",
+      "name": "SelfKey",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
+      "symbol": "LEND",
+      "name": "Aave",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+      "symbol": "COMP",
+      "name": "Compound",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "symbol": "MKR",
+      "name": "MakerDAO",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
+      "symbol": "MCB",
+      "name": "MCDEX",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x0abdace70d3790235af448c88547603b945604ea",
+      "symbol": "DNT",
+      "name": "District0x",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
+      "symbol": "RARI",
+      "name": "Rarible",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+      "symbol": "MATIC",
+      "name": "Matic",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+      "symbol": "OMG",
+      "name": "OmiseGO",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
+      "symbol": "STAKE",
+      "name": "xDai Stable Chain",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+      "symbol": "GNO",
+      "name": "Gnosis",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+      "symbol": "AMPL",
+      "name": "Ampleforth",
+      "decimals": 9,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "symbol": "DAI",
+      "name": "DAI",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf",
+      "symbol": "DGX",
+      "name": "Digix",
+      "decimals": 9,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "symbol": "GUSD",
+      "name": "Gemini Dollar",
+      "decimals": 2,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "symbol": "USDP",
+      "name": "Pax Dollar",
+      "decimals": 18,
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
       "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
       "symbol": "USDC",
-      "name": "USDC",
+      "name": "USD Coin",
       "decimals": 6,
-      "tags": ["stablecoin"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0xA3865E64121537b5b59B5e239Db4aCBe6F36aa74",
-      "symbol": "WXTZ",
-      "name": "Wrapped Tezos",
-      "decimals": 18,
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmefZX2pyEQKaE4wZ63oa8S1SQ4eW3oLGiWLdiVLeGfAMC",
-      "tags": ["tezos"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x219F4a1D142DFC564bD6e80c022cD29f3394A999",
-      "symbol": "WXLM",
-      "name": "Wrapped Stellar",
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmPkYr86Qzo2rRQcYAwM9wgY9jVCy9cVLfiM2WQqvdhPKg",
-      "decimals": 18,
-      "tags": ["stellar"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x53c4871322Bb47e7A24136fce291a6dcC832a294",
-      "symbol": "WLTC",
-      "name": "Wrapped Litecoin",
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmYKA2tnBQWSdxSQnSv4j3Dfnfp87VDC3LpCe7BqAjnqxY",
-      "decimals": 18,
-      "tags": ["litecoin"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xE452E6Ea2dDeB012e20dB73bf5d3863A3Ac8d77a",
-      "symbol": "wCELO",
-      "name": "Wrapped Celo",
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmZonfTMoBVkvom5bxuDT2mgWQ6yjh1aaoA7erVnTUxoWV",
-      "decimals": 18,
-      "tags": ["celo"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xad3E3Fc59dff318BecEaAb7D00EB4F68b1EcF195",
-      "symbol": "wCUSD",
-      "name": "Wrapped Celo Dollars",
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmXxynmoaP4nxZSJbri3FqwoYLDTxjfB8jToLuGB8PMwgb",
-      "decimals": 18,
-      "tags": ["celo", "dollar", "USD"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x29c8c00ec4d2Aac7232D4B974707b850c1c28285",
-      "symbol": "wDASH",
-      "name": "Wrapped DASH",
-      "logoURI": "https://etherscan.io/token/images/wrappeddash_32.png",
-      "decimals": 18,
-      "tags": ["wrapped", "dash"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
-      "symbol": "BBTC",
-      "name": "Binance Wrapped BTC",
-      "logoURI": "https://etherscan.io/token/images/binance-btc_32.png",
+      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "symbol": "WBTC",
+      "name": "WBTC",
       "decimals": 8,
-      "tags": ["binance", "wrapped", "bitcoin"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x7884f51dc1410387371ce61747cb6264e1daee0b",
-      "symbol": "BDOT",
-      "name": "Binance Wrapped DOT",
-      "logoURI": "https://etherscan.io/token/images/binance-dot_32.png",
-      "decimals": 10,
-      "tags": ["binance", "wrapped", "polkadot"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x8E16bf47065Fe843A82f4399bAF5aBac4E0822B7",
-      "symbol": "BFIL",
-      "name": "Binance Wrapped FIL",
-      "logoURI": "https://etherscan.io/token/images/binance-filecoin_32.png",
-      "decimals": 18,
-      "tags": ["binance", "wrapped", "filecoin"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x85c4EdC43724e954e5849cAAab61A26a9CB65F1B",
-      "symbol": "BBCH",
-      "name": "Binance Wrapped BCH",
-      "logoURI": "https://etherscan.io/token/images/binance-bch_32.png",
+      "address": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
+      "symbol": "HUSD",
+      "name": "HUSD",
       "decimals": 8,
-      "tags": ["binance", "wrapped", "bitcoin", "cash", "bcash"]
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x2ba592F78dB6436527729929AAf6c908497cB200",
+      "symbol": "CREAM",
+      "name": "Cream Finance",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x5BC25f649fc4e26069dDF4cF4010F9f706c23831",
+      "symbol": "DUSD",
+      "name": "DefiDollar",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "symbol": "SUSHI",
+      "name": "SushiSwap",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x543ff227f64aa17ea132bf9886cab5db55dcaddf",
+      "symbol": "GEN",
+      "name": "DAOstack",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xa0246c9032bc3a600820415ae600c6388619a14d",
+      "symbol": "FARM",
+      "name": "Harvest",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+      "symbol": "AAVE",
+      "name": "AAVE",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+      "symbol": "DODO",
+      "name": "DODO",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e",
+      "symbol": "ANT",
+      "name": "Aragon",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x4688a8b1f292fdab17e9a90c8bc379dc1dbd8713",
+      "symbol": "COVER",
+      "name": "COVER",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x36f3fd68e7325a35eb768f1aedaae9ea0689d723",
+      "symbol": "ESD",
+      "name": "Empty Set Dollar",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xeF9Cd7882c067686691B6fF49e650b43AFBBCC6B",
+      "symbol": "FNX",
+      "name": "FinNexus",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xca1207647ff814039530d7d35df0e1dd2e91fa84",
+      "symbol": "DHT",
+      "name": "dHEDGE",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xfFffFffF2ba8F66D4e51811C5190992176930278",
+      "symbol": "COMBO",
+      "name": "Furucombo",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "symbol": "FXS",
+      "name": "Frax Share",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83",
+      "symbol": "NDX",
+      "name": "Indexed",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x1494ca1f11d487c2bbe4543e90080aeba4ba3c2b",
+      "symbol": "DPI",
+      "name": "DefiPulse Index",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xad32a8e6220741182940c5abf610bde99e737b2d",
+      "symbol": "DOUGH",
+      "name": "PieDAO",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x0000000000095413afc295d19edeb1ad7b71c952",
+      "symbol": "LON",
+      "name": "Tokenlon",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x888888888889c00c67689029d7856aac1065ec11",
+      "symbol": "OPIUM",
+      "name": "OPIUM",
+      "decimals": 18,
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
       "address": "0x09a3ecafa817268f77be1283176b946c4ff2e608",
       "symbol": "MIR",
-      "name": "Wrapped MIR Token",
-      "logoURI": "https://etherscan.io/token/images/wrappedmirtoken_32.png",
+      "name": "Mirror Protocol",
       "decimals": 18,
-      "tags": ["wrapped", "mir"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0xa47c8bf37f92abed4a126bda807a7b7498661acd",
-      "symbol": "UST",
-      "name": "Wrapped UST Token",
-      "logoURI": "https://etherscan.io/token/images/terra-ust_32.png",
+      "address": "0x8888801af4d980682e47f1a9036e589479e835c5",
+      "symbol": "MPH",
+      "name": "88mph",
       "decimals": 18,
-      "tags": ["wrapped", "ust"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x09fE5f0236F0Ea5D930197DCE254d77B04128075",
-      "symbol": "WCK",
-      "name": "Wrapped CryptoKitties",
-      "logoURI": "https://assets.coingecko.com/coins/images/8797/small/WCK.png",
+      "address": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784",
+      "symbol": "TRU",
+      "name": "TrueFi",
       "decimals": 18,
-      "tags": ["wrapped"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x123151402076fc819B7564510989e475c9cD93CA",
-      "symbol": "wDGLD",
-      "name": "Wrapped DGLD",
-      "logoURI": "https://etherscan.io/token/images/wrappeddgld_32.png",
-      "decimals": 8,
-      "tags": ["wrapped", "dgld"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xa0afaa285ce85974c3c881256cb7f225e3a1178a",
-      "symbol": "wCRES",
-      "name": "Wrapped CRES",
-      "logoURI": "https://etherscan.io/token/images/wrappedcres_32.png",
+      "address": "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776",
+      "symbol": "NFTX",
+      "name": "NFTX",
       "decimals": 18,
-      "tags": ["wrapped", "cres", "crescofin"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x5eb191d30665EAB255b25Ce797052878dDD3BB6F",
-      "symbol": "wXZC",
-      "name": "Wrapped Zcoin",
-      "logoURI": "https://etherscan.io/token/images/wrappedzcoin_32.png",
+      "address": "0x429881672b9ae42b8eba0e26cd9c73711b891ca5",
+      "symbol": "PICKLE",
+      "name": "PICKLE",
       "decimals": 18,
-      "tags": ["wrapped", "zcoin"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0xf88506b0f1d30056b9e5580668d5875b9cd30f23",
-      "symbol": "xLON",
-      "name": "Wrapped Tokenlon",
-      "logoURI": "https://etherscan.io/token/images/xLON_32.png",
+      "address": "0x875773784af8135ea0ef43b5a374aad105c5d39e",
+      "symbol": "IDLE",
+      "name": "IDLE",
       "decimals": 18,
-      "tags": ["wrapped", "tokenlon"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x41c84c0e2ee0b740cf0d31f63f3b6f627dc6b393",
-      "symbol": "cyWETH",
-      "name": "Yearn Wrapped Ether",
-      "logoURI": "https://etherscan.io/token/images/cyWETH_32.png",
-      "decimals": 8,
-      "tags": ["wrapped", "yearn", "ether"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xEC0A0915A7c3443862B678B0d4721C7aB133FDCf",
-      "symbol": "WOA",
-      "name": "Wrapped Origin Axie",
-      "logoURI": "https://etherscan.io/token/images/axieinfinity_32.png",
+      "address": "0xd291e7a03283640fdc51b121ac401383a46cc623",
+      "symbol": "RGT",
+      "name": "RGT",
       "decimals": 18,
-      "tags": ["wrapped", "origin", "axie"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0x15334dcb171e8b65d6650321581dca83be870115",
-      "symbol": "wBIND",
-      "name": "Wrapped BIND",
-      "logoURI": "https://etherscan.io/token/images/wrappedbind_32.png",
-      "decimals": 8,
-      "tags": ["wrapped", "bind"]
-    },
-    {
-      "chainId": 1,
-      "address": "0xd4e7A6E7f9aA5909036338a3C4cD57319d613190",
-      "symbol": "WUTN",
-      "name": "Wrapped Universa",
+      "address": "0xa1faa113cbe53436df28ff0aee54275c13b40975",
+      "symbol": "ALPHA",
+      "name": "ALPHA",
       "decimals": 18,
-      "logoURI": "https://cloudflare-ipfs.com/ipfs/QmVDL8ji6HKEmt5gFo6Gi1roXk6SNifL3omG5RjRCGRMDH",
-      "tags": ["wrapped", "utn", "utnp", "universa"]
+      "tags": ["defi"]
     },
     {
       "chainId": 1,
-      "address": "0xa1f82e14bc09a1b42710df1a8a999b62f294e592",
-      "symbol": "eCFX",
-      "name": "Wrapped CFX",
+      "address": "0x584bc13c7d411c00c01a62e8019472de68768430",
+      "symbol": "HEGIC",
+      "name": "HEGIC",
       "decimals": 18,
-      "logoURI": "https://pbs.twimg.com/profile_images/1365344971948179466/DoTPVgGu_400x400.jpg",
-      "tags": ["cfx", "ecfx", "conflux"]
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x49e833337ece7afe375e44f4e3e8481029218e5c",
+      "symbol": "VALUE",
+      "name": "VALUE",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81",
+      "symbol": "MUSE",
+      "name": "MUSE",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x92e187a03b6cd19cb6af293ba17f2745fd2357d5",
+      "symbol": "DUCK",
+      "name": "DUCK",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+      "symbol": "1INCH",
+      "name": "1INCH",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x1b40183efb4dd766f11bda7a7c3ad8982e998421",
+      "symbol": "VSP",
+      "name": "VSP",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
+      "symbol": "AKRO",
+      "name": "Akropolis",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x03ab458634910aad20ef5f1c8ee96f1d6ac54919",
+      "symbol": "RAI",
+      "name": "RAI",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x77fba179c79de5b7653f68b5039af940ada60ce0",
+      "symbol": "FORTH",
+      "name": "FORTH",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xab37e1358b639fd877f015027bb62d3ddaa7557e",
+      "symbol": "LIEN",
+      "name": "LIEN",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6c28aef8977c9b773996d0e8376d2ee379446f2f",
+      "symbol": "QUICK",
+      "name": "QUICK",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+      "symbol": "GTC",
+      "name": "GTC",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+      "symbol": "ALCX",
+      "name": "ALCX",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d",
+      "symbol": "LQTY",
+      "name": "LQTY",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+      "symbol": "LDO",
+      "name": "LDO",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+      "symbol": "INST",
+      "name": "INST",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x72f020f8f3e8fd9382705723cd26380f8d0c66bb",
+      "symbol": "PLOT",
+      "name": "PLOT",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
+      "symbol": "REQ",
+      "name": "REQ",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x321c2fe4446c7c963dc41dd58879af648838f98d",
+      "symbol": "CTX",
+      "name": "CTX",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x16c52ceece2ed57dad87319d91b5e3637d50afa4",
+      "symbol": "TCAP",
+      "name": "TCAP",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
+      "symbol": "DYDX",
+      "name": "DYDX",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
+      "symbol": "RBN",
+      "name": "RBN",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
+      "symbol": "SDT",
+      "name": "SDT",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xcafe001067cdef266afb7eb5a286dcfd277f3de5",
+      "symbol": "PSP",
+      "name": "PSP",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x383518188c0c6d7730d91b2c03a03c837814a899",
+      "symbol": "OHM",
+      "name": "OHM",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x72b886d09c117654ab7da13a14d603001de0b777",
+      "symbol": "XDEFI",
+      "name": "XDEFI",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0x3ec8798b81485a254928b70cda1cf0a2bb0b74d7",
+      "symbol": "GRO",
+      "name": "GRO",
+      "decimals": 18,
+      "tags": ["defi"]
+    },
+    {
+      "chainId": 1,
+      "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
+      "symbol": "LOOKS",
+      "name": "LOOKS",
+      "decimals": 18,
+      "tags": ["defi"]
     }
   ],
   "version": {
     "major": 1,
-    "minor": 9,
-    "patch": 4
+    "minor": 39,
+    "patch": 0
   }
 }
