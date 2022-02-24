@@ -1,11 +1,11 @@
 {
-  "name": "Defiprime",
-  "logoURI": "https://defiprime.com/images/defiprime-logo-hires2.png",
-  "keywords": ["Defi", "defiprime", "curated"],
+  "name": "Bezergan",
+  "logoURI": "https://bezergan.com/cdn/logo-website-black.png",
+  "keywords": ["Defi", "bezergan", "curated"],
   "tags": {
     "defi": {
-      "name": "DeFi Tokens",
-      "description": "Tokens associated with the products listed at defiprime.com"
+      "name": "Bezergan DeFi Tokens",
+      "description": "Tokens associated with the products listed at bezergan.com"
     }
   },
   "timestamp": "2022-01-26T00:00:00+00:00",
@@ -14,7 +14,7 @@
       "chainId": 1,
       "address": "0x960b236A07cf122663c4303350609A66A7B288C0",
       "symbol": "ANT",
-      "name": "Aragon ANT (old)",
+      "name": "Aragon ANT OLD",
       "decimals": 18,
       "tags": ["defi"]
     },
