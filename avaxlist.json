@@ -9,17 +9,9 @@
   },
   "timestamp": "2022-01-26T00:00:00+00:00",
   "tokens": [
-{
-      "chainId": 1,
-      "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "symbol": "WBTC",
-      "name": "WBTC",
-      "decimals": 8,
-      "tags": ["defi"]
-    },
     {
       "chainId": 1,
-      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
       "symbol": "DAI",
       "name": "DAI",
       "decimals": 18,
@@ -27,7 +19,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "address": "0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846",
       "symbol": "LINK",
       "name": "Chainlink",
       "decimals": 18,
@@ -35,15 +27,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
-      "symbol": "UNI",
-      "name": "Uniswap",
-      "decimals": 18,
-      "tags": ["defi"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+      "address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
       "symbol": "FRAX",
       "name": "Frax",
       "decimals": 18,
@@ -51,7 +35,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+      "address": "0x214DB107654fF987AD859F34125307783fC8e387",
       "symbol": "FXS",
       "name": "Frax Share",
       "decimals": 18,
@@ -59,7 +43,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
+      "address": "0x467b92aF281d14cB6809913AD016a607b5ba8A36",
       "symbol": "LEND",
       "name": "Aave",
       "decimals": 18,
@@ -67,15 +51,7 @@
     },    
     {
       "chainId": 1,
-      "address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-      "symbol": "MKR",
-      "name": "MakerDAO",
-      "decimals": 18,
-      "tags": ["defi"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
       "symbol": "YFI",
       "name": "Yearn.finance",
       "decimals": 18,
@@ -83,7 +59,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+      "address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
       "symbol": "SUSHI",
       "name": "SushiSwap",
       "decimals": 18,
@@ -91,7 +67,7 @@
     },
  {
       "chainId": 1,
-      "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+      "address": "0xd501281565bf7789224523144Fe5D98e8B28f267",
       "symbol": "1INCH",
       "name": "1INCH",
       "decimals": 18,
@@ -99,7 +75,7 @@
     },
     {
       "chainId": 1,
-      "address": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
+      "address": "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339",
       "symbol": "UMA",
       "name": "Uma",
       "decimals": 18,
@@ -107,7 +83,7 @@
     },
     {
       "chainId": 1,
-      "address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+      "address": "0x10908C875D865C66f271F5d3949848971c9595C9",
       "symbol": "KNC",
       "name": "KyberSwap",
       "decimals": 18,
