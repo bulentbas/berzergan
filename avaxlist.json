@@ -51,38 +51,6 @@
     },    
     {
       "chainId": 1,
-      "address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc",
-      "symbol": "YFI",
-      "name": "Yearn.finance",
-      "decimals": 18,
-      "tags": ["defi"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76",
-      "symbol": "SUSHI",
-      "name": "SushiSwap",
-      "decimals": 18,
-      "tags": ["defi"]
-    },
- {
-      "chainId": 1,
-      "address": "0xd501281565bf7789224523144Fe5D98e8B28f267",
-      "symbol": "1INCH",
-      "name": "1INCH",
-      "decimals": 18,
-      "tags": ["defi"]
-    },
-    {
-      "chainId": 1,
-      "address": "0x3Bd2B1c7ED8D396dbb98DED3aEbb41350a5b2339",
-      "symbol": "UMA",
-      "name": "Uma",
-      "decimals": 18,
-      "tags": ["defi"]
-    },
-    {
-      "chainId": 1,
       "address": "0x10908C875D865C66f271F5d3949848971c9595C9",
       "symbol": "KNC",
       "name": "KyberSwap",
